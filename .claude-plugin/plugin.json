@@ -1,0 +1,10 @@
+{
+  "name": "mmo",
+  "version": "1.0.0",
+  "description": "Multi-Model Orchestrator - Codex/Gemini协作、SESSION管理、并行开发、验证闭环",
+  "author": {
+    "name": "Maple"
+  },
+  "license": "MIT",
+  "keywords": ["multi-model", "codex", "gemini", "parallel", "orchestration", "bmad"]
+}

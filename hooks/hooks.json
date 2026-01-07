@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "pnpm lint:fix $FILE 2>/dev/null || npm run lint:fix $FILE 2>/dev/null || true"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '\\n✅ 会话结束提醒：\\n   - 运行 /mmo:verify 验证变更\\n   - 或使用 reviewer agent 进行代码审查'"
+          }
+        ]
+      }
+    ]
+  }
+}
