@@ -7,11 +7,11 @@
 ### 安装
 
 ```bash
-# 本地测试
-claude --plugin-dir ./multi-model-orchestrator
+# 从GitHub安装（推荐）
+/plugin install pure-maple/cc-mmo-plugin
 
-# 或安装到用户级
-claude plugin install ./multi-model-orchestrator
+# 或本地开发测试
+claude --plugin-dir ./multi-model-orchestrator
 ```
 
 ### 验证安装
