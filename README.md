@@ -7,8 +7,11 @@
 ### 安装
 
 ```bash
-# 从GitHub安装（推荐）
-/plugin install pure-maple/cc-mmo-plugin
+# Step 1: 添加 marketplace
+/plugin marketplace add pure-maple/cc-mmo-plugin
+
+# Step 2: 安装插件
+/plugin install mmo
 
 # 或本地开发测试
 claude --plugin-dir ./multi-model-orchestrator

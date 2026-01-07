@@ -1,0 +1,23 @@
+{
+  "name": "cc-mmo-plugin",
+  "owner": {
+    "name": "Maple"
+  },
+  "metadata": {
+    "description": "Multi-Model Orchestrator - Claude Code Plugin for Codex/Gemini collaboration",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "mmo",
+      "source": ".",
+      "description": "Multi-Model Orchestrator - Codex/Gemini协作、SESSION管理、并行开发、验证闭环",
+      "version": "1.0.0",
+      "author": {
+        "name": "Maple"
+      },
+      "license": "MIT",
+      "keywords": ["multi-model", "codex", "gemini", "parallel", "orchestration", "bmad"]
+    }
+  ]
+}
