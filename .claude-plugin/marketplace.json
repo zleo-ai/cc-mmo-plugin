@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "mmo",
-      "source": ".",
+      "source": "./",
       "description": "Multi-Model Orchestrator - Codex/Gemini协作、SESSION管理、并行开发、验证闭环",
       "version": "1.0.0",
       "author": {
