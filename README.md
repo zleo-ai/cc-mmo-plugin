@@ -8,7 +8,7 @@
 
 ```bash
 # Step 1: 添加 marketplace
-/plugin marketplace add pure-maple/cc-mmo-plugin
+/plugin marketplace add zleo-ai/cc-mmo-plugin
 
 # Step 2: 安装插件
 /plugin install mmo
